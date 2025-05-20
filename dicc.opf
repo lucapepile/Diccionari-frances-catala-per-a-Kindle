@@ -1,0 +1,927 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+  <metadata>
+    <dc:title>Diccionari francès-català</dc:title>
+    <dc:creator opf:role="aut">Enciclopèdia Catalana</dc:creator>
+    <dc:language>ca</dc:language>
+    <meta name="cover" content="my-cover-image" />
+    <x-metadata>
+      <DictionaryInLanguage>fr</DictionaryInLanguage>
+      <DictionaryOutLanguage>ca</DictionaryOutLanguage>
+      <DefaultLookupIndex>default</DefaultLookupIndex>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <!-- <item href="cover-image.jpg" id="my-cover-image" media-type="image/jpg" /> -->
+    <item id="cover"
+          href="cover.html"
+          media-type="application/xhtml+xml" />
+<item id="part_001" href="parts_diccionari/part_001.html" media-type="application/xhtml+xml" />
+<item id="part_002" href="parts_diccionari/part_002.html" media-type="application/xhtml+xml" />
+<item id="part_003" href="parts_diccionari/part_003.html" media-type="application/xhtml+xml" />
+<item id="part_004" href="parts_diccionari/part_004.html" media-type="application/xhtml+xml" />
+<item id="part_005" href="parts_diccionari/part_005.html" media-type="application/xhtml+xml" />
+<item id="part_006" href="parts_diccionari/part_006.html" media-type="application/xhtml+xml" />
+<item id="part_007" href="parts_diccionari/part_007.html" media-type="application/xhtml+xml" />
+<item id="part_008" href="parts_diccionari/part_008.html" media-type="application/xhtml+xml" />
+<item id="part_009" href="parts_diccionari/part_009.html" media-type="application/xhtml+xml" />
+<item id="part_010" href="parts_diccionari/part_010.html" media-type="application/xhtml+xml" />
+<item id="part_011" href="parts_diccionari/part_011.html" media-type="application/xhtml+xml" />
+<item id="part_012" href="parts_diccionari/part_012.html" media-type="application/xhtml+xml" />
+<item id="part_013" href="parts_diccionari/part_013.html" media-type="application/xhtml+xml" />
+<item id="part_014" href="parts_diccionari/part_014.html" media-type="application/xhtml+xml" />
+<item id="part_015" href="parts_diccionari/part_015.html" media-type="application/xhtml+xml" />
+<item id="part_016" href="parts_diccionari/part_016.html" media-type="application/xhtml+xml" />
+<item id="part_017" href="parts_diccionari/part_017.html" media-type="application/xhtml+xml" />
+<item id="part_018" href="parts_diccionari/part_018.html" media-type="application/xhtml+xml" />
+<item id="part_019" href="parts_diccionari/part_019.html" media-type="application/xhtml+xml" />
+<item id="part_020" href="parts_diccionari/part_020.html" media-type="application/xhtml+xml" />
+<item id="part_021" href="parts_diccionari/part_021.html" media-type="application/xhtml+xml" />
+<item id="part_022" href="parts_diccionari/part_022.html" media-type="application/xhtml+xml" />
+<item id="part_023" href="parts_diccionari/part_023.html" media-type="application/xhtml+xml" />
+<item id="part_024" href="parts_diccionari/part_024.html" media-type="application/xhtml+xml" />
+<item id="part_025" href="parts_diccionari/part_025.html" media-type="application/xhtml+xml" />
+<item id="part_026" href="parts_diccionari/part_026.html" media-type="application/xhtml+xml" />
+<item id="part_027" href="parts_diccionari/part_027.html" media-type="application/xhtml+xml" />
+<item id="part_028" href="parts_diccionari/part_028.html" media-type="application/xhtml+xml" />
+<item id="part_029" href="parts_diccionari/part_029.html" media-type="application/xhtml+xml" />
+<item id="part_030" href="parts_diccionari/part_030.html" media-type="application/xhtml+xml" />
+<item id="part_031" href="parts_diccionari/part_031.html" media-type="application/xhtml+xml" />
+<item id="part_032" href="parts_diccionari/part_032.html" media-type="application/xhtml+xml" />
+<item id="part_033" href="parts_diccionari/part_033.html" media-type="application/xhtml+xml" />
+<item id="part_034" href="parts_diccionari/part_034.html" media-type="application/xhtml+xml" />
+<item id="part_035" href="parts_diccionari/part_035.html" media-type="application/xhtml+xml" />
+<item id="part_036" href="parts_diccionari/part_036.html" media-type="application/xhtml+xml" />
+<item id="part_037" href="parts_diccionari/part_037.html" media-type="application/xhtml+xml" />
+<item id="part_038" href="parts_diccionari/part_038.html" media-type="application/xhtml+xml" />
+<item id="part_039" href="parts_diccionari/part_039.html" media-type="application/xhtml+xml" />
+<item id="part_040" href="parts_diccionari/part_040.html" media-type="application/xhtml+xml" />
+<item id="part_041" href="parts_diccionari/part_041.html" media-type="application/xhtml+xml" />
+<item id="part_042" href="parts_diccionari/part_042.html" media-type="application/xhtml+xml" />
+<item id="part_043" href="parts_diccionari/part_043.html" media-type="application/xhtml+xml" />
+<item id="part_044" href="parts_diccionari/part_044.html" media-type="application/xhtml+xml" />
+<item id="part_045" href="parts_diccionari/part_045.html" media-type="application/xhtml+xml" />
+<item id="part_046" href="parts_diccionari/part_046.html" media-type="application/xhtml+xml" />
+<item id="part_047" href="parts_diccionari/part_047.html" media-type="application/xhtml+xml" />
+<item id="part_048" href="parts_diccionari/part_048.html" media-type="application/xhtml+xml" />
+<item id="part_049" href="parts_diccionari/part_049.html" media-type="application/xhtml+xml" />
+<item id="part_050" href="parts_diccionari/part_050.html" media-type="application/xhtml+xml" />
+<item id="part_051" href="parts_diccionari/part_051.html" media-type="application/xhtml+xml" />
+<item id="part_052" href="parts_diccionari/part_052.html" media-type="application/xhtml+xml" />
+<item id="part_053" href="parts_diccionari/part_053.html" media-type="application/xhtml+xml" />
+<item id="part_054" href="parts_diccionari/part_054.html" media-type="application/xhtml+xml" />
+<item id="part_055" href="parts_diccionari/part_055.html" media-type="application/xhtml+xml" />
+<item id="part_056" href="parts_diccionari/part_056.html" media-type="application/xhtml+xml" />
+<item id="part_057" href="parts_diccionari/part_057.html" media-type="application/xhtml+xml" />
+<item id="part_058" href="parts_diccionari/part_058.html" media-type="application/xhtml+xml" />
+<item id="part_059" href="parts_diccionari/part_059.html" media-type="application/xhtml+xml" />
+<item id="part_060" href="parts_diccionari/part_060.html" media-type="application/xhtml+xml" />
+<item id="part_061" href="parts_diccionari/part_061.html" media-type="application/xhtml+xml" />
+<item id="part_062" href="parts_diccionari/part_062.html" media-type="application/xhtml+xml" />
+<item id="part_063" href="parts_diccionari/part_063.html" media-type="application/xhtml+xml" />
+<item id="part_064" href="parts_diccionari/part_064.html" media-type="application/xhtml+xml" />
+<item id="part_065" href="parts_diccionari/part_065.html" media-type="application/xhtml+xml" />
+<item id="part_066" href="parts_diccionari/part_066.html" media-type="application/xhtml+xml" />
+<item id="part_067" href="parts_diccionari/part_067.html" media-type="application/xhtml+xml" />
+<item id="part_068" href="parts_diccionari/part_068.html" media-type="application/xhtml+xml" />
+<item id="part_069" href="parts_diccionari/part_069.html" media-type="application/xhtml+xml" />
+<item id="part_070" href="parts_diccionari/part_070.html" media-type="application/xhtml+xml" />
+<item id="part_071" href="parts_diccionari/part_071.html" media-type="application/xhtml+xml" />
+<item id="part_072" href="parts_diccionari/part_072.html" media-type="application/xhtml+xml" />
+<item id="part_073" href="parts_diccionari/part_073.html" media-type="application/xhtml+xml" />
+<item id="part_074" href="parts_diccionari/part_074.html" media-type="application/xhtml+xml" />
+<item id="part_075" href="parts_diccionari/part_075.html" media-type="application/xhtml+xml" />
+<item id="part_076" href="parts_diccionari/part_076.html" media-type="application/xhtml+xml" />
+<item id="part_077" href="parts_diccionari/part_077.html" media-type="application/xhtml+xml" />
+<item id="part_078" href="parts_diccionari/part_078.html" media-type="application/xhtml+xml" />
+<item id="part_079" href="parts_diccionari/part_079.html" media-type="application/xhtml+xml" />
+<item id="part_080" href="parts_diccionari/part_080.html" media-type="application/xhtml+xml" />
+<item id="part_081" href="parts_diccionari/part_081.html" media-type="application/xhtml+xml" />
+<item id="part_082" href="parts_diccionari/part_082.html" media-type="application/xhtml+xml" />
+<item id="part_083" href="parts_diccionari/part_083.html" media-type="application/xhtml+xml" />
+<item id="part_084" href="parts_diccionari/part_084.html" media-type="application/xhtml+xml" />
+<item id="part_085" href="parts_diccionari/part_085.html" media-type="application/xhtml+xml" />
+<item id="part_086" href="parts_diccionari/part_086.html" media-type="application/xhtml+xml" />
+<item id="part_087" href="parts_diccionari/part_087.html" media-type="application/xhtml+xml" />
+<item id="part_088" href="parts_diccionari/part_088.html" media-type="application/xhtml+xml" />
+<item id="part_089" href="parts_diccionari/part_089.html" media-type="application/xhtml+xml" />
+<item id="part_090" href="parts_diccionari/part_090.html" media-type="application/xhtml+xml" />
+<item id="part_091" href="parts_diccionari/part_091.html" media-type="application/xhtml+xml" />
+<item id="part_092" href="parts_diccionari/part_092.html" media-type="application/xhtml+xml" />
+<item id="part_093" href="parts_diccionari/part_093.html" media-type="application/xhtml+xml" />
+<item id="part_094" href="parts_diccionari/part_094.html" media-type="application/xhtml+xml" />
+<item id="part_095" href="parts_diccionari/part_095.html" media-type="application/xhtml+xml" />
+<item id="part_096" href="parts_diccionari/part_096.html" media-type="application/xhtml+xml" />
+<item id="part_097" href="parts_diccionari/part_097.html" media-type="application/xhtml+xml" />
+<item id="part_098" href="parts_diccionari/part_098.html" media-type="application/xhtml+xml" />
+<item id="part_099" href="parts_diccionari/part_099.html" media-type="application/xhtml+xml" />
+<item id="part_100" href="parts_diccionari/part_100.html" media-type="application/xhtml+xml" />
+<item id="part_101" href="parts_diccionari/part_101.html" media-type="application/xhtml+xml" />
+<item id="part_102" href="parts_diccionari/part_102.html" media-type="application/xhtml+xml" />
+<item id="part_103" href="parts_diccionari/part_103.html" media-type="application/xhtml+xml" />
+<item id="part_104" href="parts_diccionari/part_104.html" media-type="application/xhtml+xml" />
+<item id="part_105" href="parts_diccionari/part_105.html" media-type="application/xhtml+xml" />
+<item id="part_106" href="parts_diccionari/part_106.html" media-type="application/xhtml+xml" />
+<item id="part_107" href="parts_diccionari/part_107.html" media-type="application/xhtml+xml" />
+<item id="part_108" href="parts_diccionari/part_108.html" media-type="application/xhtml+xml" />
+<item id="part_109" href="parts_diccionari/part_109.html" media-type="application/xhtml+xml" />
+<item id="part_110" href="parts_diccionari/part_110.html" media-type="application/xhtml+xml" />
+<item id="part_111" href="parts_diccionari/part_111.html" media-type="application/xhtml+xml" />
+<item id="part_112" href="parts_diccionari/part_112.html" media-type="application/xhtml+xml" />
+<item id="part_113" href="parts_diccionari/part_113.html" media-type="application/xhtml+xml" />
+<item id="part_114" href="parts_diccionari/part_114.html" media-type="application/xhtml+xml" />
+<item id="part_115" href="parts_diccionari/part_115.html" media-type="application/xhtml+xml" />
+<item id="part_116" href="parts_diccionari/part_116.html" media-type="application/xhtml+xml" />
+<item id="part_117" href="parts_diccionari/part_117.html" media-type="application/xhtml+xml" />
+<item id="part_118" href="parts_diccionari/part_118.html" media-type="application/xhtml+xml" />
+<item id="part_119" href="parts_diccionari/part_119.html" media-type="application/xhtml+xml" />
+<item id="part_120" href="parts_diccionari/part_120.html" media-type="application/xhtml+xml" />
+<item id="part_121" href="parts_diccionari/part_121.html" media-type="application/xhtml+xml" />
+<item id="part_122" href="parts_diccionari/part_122.html" media-type="application/xhtml+xml" />
+<item id="part_123" href="parts_diccionari/part_123.html" media-type="application/xhtml+xml" />
+<item id="part_124" href="parts_diccionari/part_124.html" media-type="application/xhtml+xml" />
+<item id="part_125" href="parts_diccionari/part_125.html" media-type="application/xhtml+xml" />
+<item id="part_126" href="parts_diccionari/part_126.html" media-type="application/xhtml+xml" />
+<item id="part_127" href="parts_diccionari/part_127.html" media-type="application/xhtml+xml" />
+<item id="part_128" href="parts_diccionari/part_128.html" media-type="application/xhtml+xml" />
+<item id="part_129" href="parts_diccionari/part_129.html" media-type="application/xhtml+xml" />
+<item id="part_130" href="parts_diccionari/part_130.html" media-type="application/xhtml+xml" />
+<item id="part_131" href="parts_diccionari/part_131.html" media-type="application/xhtml+xml" />
+<item id="part_132" href="parts_diccionari/part_132.html" media-type="application/xhtml+xml" />
+<item id="part_133" href="parts_diccionari/part_133.html" media-type="application/xhtml+xml" />
+<item id="part_134" href="parts_diccionari/part_134.html" media-type="application/xhtml+xml" />
+<item id="part_135" href="parts_diccionari/part_135.html" media-type="application/xhtml+xml" />
+<item id="part_136" href="parts_diccionari/part_136.html" media-type="application/xhtml+xml" />
+<item id="part_137" href="parts_diccionari/part_137.html" media-type="application/xhtml+xml" />
+<item id="part_138" href="parts_diccionari/part_138.html" media-type="application/xhtml+xml" />
+<item id="part_139" href="parts_diccionari/part_139.html" media-type="application/xhtml+xml" />
+<item id="part_140" href="parts_diccionari/part_140.html" media-type="application/xhtml+xml" />
+<item id="part_141" href="parts_diccionari/part_141.html" media-type="application/xhtml+xml" />
+<item id="part_142" href="parts_diccionari/part_142.html" media-type="application/xhtml+xml" />
+<item id="part_143" href="parts_diccionari/part_143.html" media-type="application/xhtml+xml" />
+<item id="part_144" href="parts_diccionari/part_144.html" media-type="application/xhtml+xml" />
+<item id="part_145" href="parts_diccionari/part_145.html" media-type="application/xhtml+xml" />
+<item id="part_146" href="parts_diccionari/part_146.html" media-type="application/xhtml+xml" />
+<item id="part_147" href="parts_diccionari/part_147.html" media-type="application/xhtml+xml" />
+<item id="part_148" href="parts_diccionari/part_148.html" media-type="application/xhtml+xml" />
+<item id="part_149" href="parts_diccionari/part_149.html" media-type="application/xhtml+xml" />
+<item id="part_150" href="parts_diccionari/part_150.html" media-type="application/xhtml+xml" />
+<item id="part_151" href="parts_diccionari/part_151.html" media-type="application/xhtml+xml" />
+<item id="part_152" href="parts_diccionari/part_152.html" media-type="application/xhtml+xml" />
+<item id="part_153" href="parts_diccionari/part_153.html" media-type="application/xhtml+xml" />
+<item id="part_154" href="parts_diccionari/part_154.html" media-type="application/xhtml+xml" />
+<item id="part_155" href="parts_diccionari/part_155.html" media-type="application/xhtml+xml" />
+<item id="part_156" href="parts_diccionari/part_156.html" media-type="application/xhtml+xml" />
+<item id="part_157" href="parts_diccionari/part_157.html" media-type="application/xhtml+xml" />
+<item id="part_158" href="parts_diccionari/part_158.html" media-type="application/xhtml+xml" />
+<item id="part_159" href="parts_diccionari/part_159.html" media-type="application/xhtml+xml" />
+<item id="part_160" href="parts_diccionari/part_160.html" media-type="application/xhtml+xml" />
+<item id="part_161" href="parts_diccionari/part_161.html" media-type="application/xhtml+xml" />
+<item id="part_162" href="parts_diccionari/part_162.html" media-type="application/xhtml+xml" />
+<item id="part_163" href="parts_diccionari/part_163.html" media-type="application/xhtml+xml" />
+<item id="part_164" href="parts_diccionari/part_164.html" media-type="application/xhtml+xml" />
+<item id="part_165" href="parts_diccionari/part_165.html" media-type="application/xhtml+xml" />
+<item id="part_166" href="parts_diccionari/part_166.html" media-type="application/xhtml+xml" />
+<item id="part_167" href="parts_diccionari/part_167.html" media-type="application/xhtml+xml" />
+<item id="part_168" href="parts_diccionari/part_168.html" media-type="application/xhtml+xml" />
+<item id="part_169" href="parts_diccionari/part_169.html" media-type="application/xhtml+xml" />
+<item id="part_170" href="parts_diccionari/part_170.html" media-type="application/xhtml+xml" />
+<item id="part_171" href="parts_diccionari/part_171.html" media-type="application/xhtml+xml" />
+<item id="part_172" href="parts_diccionari/part_172.html" media-type="application/xhtml+xml" />
+<item id="part_173" href="parts_diccionari/part_173.html" media-type="application/xhtml+xml" />
+<item id="part_174" href="parts_diccionari/part_174.html" media-type="application/xhtml+xml" />
+<item id="part_175" href="parts_diccionari/part_175.html" media-type="application/xhtml+xml" />
+<item id="part_176" href="parts_diccionari/part_176.html" media-type="application/xhtml+xml" />
+<item id="part_177" href="parts_diccionari/part_177.html" media-type="application/xhtml+xml" />
+<item id="part_178" href="parts_diccionari/part_178.html" media-type="application/xhtml+xml" />
+<item id="part_179" href="parts_diccionari/part_179.html" media-type="application/xhtml+xml" />
+<item id="part_180" href="parts_diccionari/part_180.html" media-type="application/xhtml+xml" />
+<item id="part_181" href="parts_diccionari/part_181.html" media-type="application/xhtml+xml" />
+<item id="part_182" href="parts_diccionari/part_182.html" media-type="application/xhtml+xml" />
+<item id="part_183" href="parts_diccionari/part_183.html" media-type="application/xhtml+xml" />
+<item id="part_184" href="parts_diccionari/part_184.html" media-type="application/xhtml+xml" />
+<item id="part_185" href="parts_diccionari/part_185.html" media-type="application/xhtml+xml" />
+<item id="part_186" href="parts_diccionari/part_186.html" media-type="application/xhtml+xml" />
+<item id="part_187" href="parts_diccionari/part_187.html" media-type="application/xhtml+xml" />
+<item id="part_188" href="parts_diccionari/part_188.html" media-type="application/xhtml+xml" />
+<item id="part_189" href="parts_diccionari/part_189.html" media-type="application/xhtml+xml" />
+<item id="part_190" href="parts_diccionari/part_190.html" media-type="application/xhtml+xml" />
+<item id="part_191" href="parts_diccionari/part_191.html" media-type="application/xhtml+xml" />
+<item id="part_192" href="parts_diccionari/part_192.html" media-type="application/xhtml+xml" />
+<item id="part_193" href="parts_diccionari/part_193.html" media-type="application/xhtml+xml" />
+<item id="part_194" href="parts_diccionari/part_194.html" media-type="application/xhtml+xml" />
+<item id="part_195" href="parts_diccionari/part_195.html" media-type="application/xhtml+xml" />
+<item id="part_196" href="parts_diccionari/part_196.html" media-type="application/xhtml+xml" />
+<item id="part_197" href="parts_diccionari/part_197.html" media-type="application/xhtml+xml" />
+<item id="part_198" href="parts_diccionari/part_198.html" media-type="application/xhtml+xml" />
+<item id="part_199" href="parts_diccionari/part_199.html" media-type="application/xhtml+xml" />
+<item id="part_200" href="parts_diccionari/part_200.html" media-type="application/xhtml+xml" />
+<item id="part_201" href="parts_diccionari/part_201.html" media-type="application/xhtml+xml" />
+<item id="part_202" href="parts_diccionari/part_202.html" media-type="application/xhtml+xml" />
+<item id="part_203" href="parts_diccionari/part_203.html" media-type="application/xhtml+xml" />
+<item id="part_204" href="parts_diccionari/part_204.html" media-type="application/xhtml+xml" />
+<item id="part_205" href="parts_diccionari/part_205.html" media-type="application/xhtml+xml" />
+<item id="part_206" href="parts_diccionari/part_206.html" media-type="application/xhtml+xml" />
+<item id="part_207" href="parts_diccionari/part_207.html" media-type="application/xhtml+xml" />
+<item id="part_208" href="parts_diccionari/part_208.html" media-type="application/xhtml+xml" />
+<item id="part_209" href="parts_diccionari/part_209.html" media-type="application/xhtml+xml" />
+<item id="part_210" href="parts_diccionari/part_210.html" media-type="application/xhtml+xml" />
+<item id="part_211" href="parts_diccionari/part_211.html" media-type="application/xhtml+xml" />
+<item id="part_212" href="parts_diccionari/part_212.html" media-type="application/xhtml+xml" />
+<item id="part_213" href="parts_diccionari/part_213.html" media-type="application/xhtml+xml" />
+<item id="part_214" href="parts_diccionari/part_214.html" media-type="application/xhtml+xml" />
+<item id="part_215" href="parts_diccionari/part_215.html" media-type="application/xhtml+xml" />
+<item id="part_216" href="parts_diccionari/part_216.html" media-type="application/xhtml+xml" />
+<item id="part_217" href="parts_diccionari/part_217.html" media-type="application/xhtml+xml" />
+<item id="part_218" href="parts_diccionari/part_218.html" media-type="application/xhtml+xml" />
+<item id="part_219" href="parts_diccionari/part_219.html" media-type="application/xhtml+xml" />
+<item id="part_220" href="parts_diccionari/part_220.html" media-type="application/xhtml+xml" />
+<item id="part_221" href="parts_diccionari/part_221.html" media-type="application/xhtml+xml" />
+<item id="part_222" href="parts_diccionari/part_222.html" media-type="application/xhtml+xml" />
+<item id="part_223" href="parts_diccionari/part_223.html" media-type="application/xhtml+xml" />
+<item id="part_224" href="parts_diccionari/part_224.html" media-type="application/xhtml+xml" />
+<item id="part_225" href="parts_diccionari/part_225.html" media-type="application/xhtml+xml" />
+<item id="part_226" href="parts_diccionari/part_226.html" media-type="application/xhtml+xml" />
+<item id="part_227" href="parts_diccionari/part_227.html" media-type="application/xhtml+xml" />
+<item id="part_228" href="parts_diccionari/part_228.html" media-type="application/xhtml+xml" />
+<item id="part_229" href="parts_diccionari/part_229.html" media-type="application/xhtml+xml" />
+<item id="part_230" href="parts_diccionari/part_230.html" media-type="application/xhtml+xml" />
+<item id="part_231" href="parts_diccionari/part_231.html" media-type="application/xhtml+xml" />
+<item id="part_232" href="parts_diccionari/part_232.html" media-type="application/xhtml+xml" />
+<item id="part_233" href="parts_diccionari/part_233.html" media-type="application/xhtml+xml" />
+<item id="part_234" href="parts_diccionari/part_234.html" media-type="application/xhtml+xml" />
+<item id="part_235" href="parts_diccionari/part_235.html" media-type="application/xhtml+xml" />
+<item id="part_236" href="parts_diccionari/part_236.html" media-type="application/xhtml+xml" />
+<item id="part_237" href="parts_diccionari/part_237.html" media-type="application/xhtml+xml" />
+<item id="part_238" href="parts_diccionari/part_238.html" media-type="application/xhtml+xml" />
+<item id="part_239" href="parts_diccionari/part_239.html" media-type="application/xhtml+xml" />
+<item id="part_240" href="parts_diccionari/part_240.html" media-type="application/xhtml+xml" />
+<item id="part_241" href="parts_diccionari/part_241.html" media-type="application/xhtml+xml" />
+<item id="part_242" href="parts_diccionari/part_242.html" media-type="application/xhtml+xml" />
+<item id="part_243" href="parts_diccionari/part_243.html" media-type="application/xhtml+xml" />
+<item id="part_244" href="parts_diccionari/part_244.html" media-type="application/xhtml+xml" />
+<item id="part_245" href="parts_diccionari/part_245.html" media-type="application/xhtml+xml" />
+<item id="part_246" href="parts_diccionari/part_246.html" media-type="application/xhtml+xml" />
+<item id="part_247" href="parts_diccionari/part_247.html" media-type="application/xhtml+xml" />
+<item id="part_248" href="parts_diccionari/part_248.html" media-type="application/xhtml+xml" />
+<item id="part_249" href="parts_diccionari/part_249.html" media-type="application/xhtml+xml" />
+<item id="part_250" href="parts_diccionari/part_250.html" media-type="application/xhtml+xml" />
+<item id="part_251" href="parts_diccionari/part_251.html" media-type="application/xhtml+xml" />
+<item id="part_252" href="parts_diccionari/part_252.html" media-type="application/xhtml+xml" />
+<item id="part_253" href="parts_diccionari/part_253.html" media-type="application/xhtml+xml" />
+<item id="part_254" href="parts_diccionari/part_254.html" media-type="application/xhtml+xml" />
+<item id="part_255" href="parts_diccionari/part_255.html" media-type="application/xhtml+xml" />
+<item id="part_256" href="parts_diccionari/part_256.html" media-type="application/xhtml+xml" />
+<item id="part_257" href="parts_diccionari/part_257.html" media-type="application/xhtml+xml" />
+<item id="part_258" href="parts_diccionari/part_258.html" media-type="application/xhtml+xml" />
+<item id="part_259" href="parts_diccionari/part_259.html" media-type="application/xhtml+xml" />
+<item id="part_260" href="parts_diccionari/part_260.html" media-type="application/xhtml+xml" />
+<item id="part_261" href="parts_diccionari/part_261.html" media-type="application/xhtml+xml" />
+<item id="part_262" href="parts_diccionari/part_262.html" media-type="application/xhtml+xml" />
+<item id="part_263" href="parts_diccionari/part_263.html" media-type="application/xhtml+xml" />
+<item id="part_264" href="parts_diccionari/part_264.html" media-type="application/xhtml+xml" />
+<item id="part_265" href="parts_diccionari/part_265.html" media-type="application/xhtml+xml" />
+<item id="part_266" href="parts_diccionari/part_266.html" media-type="application/xhtml+xml" />
+<item id="part_267" href="parts_diccionari/part_267.html" media-type="application/xhtml+xml" />
+<item id="part_268" href="parts_diccionari/part_268.html" media-type="application/xhtml+xml" />
+<item id="part_269" href="parts_diccionari/part_269.html" media-type="application/xhtml+xml" />
+<item id="part_270" href="parts_diccionari/part_270.html" media-type="application/xhtml+xml" />
+<item id="part_271" href="parts_diccionari/part_271.html" media-type="application/xhtml+xml" />
+<item id="part_272" href="parts_diccionari/part_272.html" media-type="application/xhtml+xml" />
+<item id="part_273" href="parts_diccionari/part_273.html" media-type="application/xhtml+xml" />
+<item id="part_274" href="parts_diccionari/part_274.html" media-type="application/xhtml+xml" />
+<item id="part_275" href="parts_diccionari/part_275.html" media-type="application/xhtml+xml" />
+<item id="part_276" href="parts_diccionari/part_276.html" media-type="application/xhtml+xml" />
+<item id="part_277" href="parts_diccionari/part_277.html" media-type="application/xhtml+xml" />
+<item id="part_278" href="parts_diccionari/part_278.html" media-type="application/xhtml+xml" />
+<item id="part_279" href="parts_diccionari/part_279.html" media-type="application/xhtml+xml" />
+<item id="part_280" href="parts_diccionari/part_280.html" media-type="application/xhtml+xml" />
+<item id="part_281" href="parts_diccionari/part_281.html" media-type="application/xhtml+xml" />
+<item id="part_282" href="parts_diccionari/part_282.html" media-type="application/xhtml+xml" />
+<item id="part_283" href="parts_diccionari/part_283.html" media-type="application/xhtml+xml" />
+<item id="part_284" href="parts_diccionari/part_284.html" media-type="application/xhtml+xml" />
+<item id="part_285" href="parts_diccionari/part_285.html" media-type="application/xhtml+xml" />
+<item id="part_286" href="parts_diccionari/part_286.html" media-type="application/xhtml+xml" />
+<item id="part_287" href="parts_diccionari/part_287.html" media-type="application/xhtml+xml" />
+<item id="part_288" href="parts_diccionari/part_288.html" media-type="application/xhtml+xml" />
+<item id="part_289" href="parts_diccionari/part_289.html" media-type="application/xhtml+xml" />
+<item id="part_290" href="parts_diccionari/part_290.html" media-type="application/xhtml+xml" />
+<item id="part_291" href="parts_diccionari/part_291.html" media-type="application/xhtml+xml" />
+<item id="part_292" href="parts_diccionari/part_292.html" media-type="application/xhtml+xml" />
+<item id="part_293" href="parts_diccionari/part_293.html" media-type="application/xhtml+xml" />
+<item id="part_294" href="parts_diccionari/part_294.html" media-type="application/xhtml+xml" />
+<item id="part_295" href="parts_diccionari/part_295.html" media-type="application/xhtml+xml" />
+<item id="part_296" href="parts_diccionari/part_296.html" media-type="application/xhtml+xml" />
+<item id="part_297" href="parts_diccionari/part_297.html" media-type="application/xhtml+xml" />
+<item id="part_298" href="parts_diccionari/part_298.html" media-type="application/xhtml+xml" />
+<item id="part_299" href="parts_diccionari/part_299.html" media-type="application/xhtml+xml" />
+<item id="part_300" href="parts_diccionari/part_300.html" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover" />
+<itemref idref="part_001"/>
+<itemref idref="part_002"/>
+<itemref idref="part_003"/>
+<itemref idref="part_004"/>
+<itemref idref="part_005"/>
+<itemref idref="part_006"/>
+<itemref idref="part_007"/>
+<itemref idref="part_008"/>
+<itemref idref="part_009"/>
+<itemref idref="part_010"/>
+<itemref idref="part_011"/>
+<itemref idref="part_012"/>
+<itemref idref="part_013"/>
+<itemref idref="part_014"/>
+<itemref idref="part_015"/>
+<itemref idref="part_016"/>
+<itemref idref="part_017"/>
+<itemref idref="part_018"/>
+<itemref idref="part_019"/>
+<itemref idref="part_020"/>
+<itemref idref="part_021"/>
+<itemref idref="part_022"/>
+<itemref idref="part_023"/>
+<itemref idref="part_024"/>
+<itemref idref="part_025"/>
+<itemref idref="part_026"/>
+<itemref idref="part_027"/>
+<itemref idref="part_028"/>
+<itemref idref="part_029"/>
+<itemref idref="part_030"/>
+<itemref idref="part_031"/>
+<itemref idref="part_032"/>
+<itemref idref="part_033"/>
+<itemref idref="part_034"/>
+<itemref idref="part_035"/>
+<itemref idref="part_036"/>
+<itemref idref="part_037"/>
+<itemref idref="part_038"/>
+<itemref idref="part_039"/>
+<itemref idref="part_040"/>
+<itemref idref="part_041"/>
+<itemref idref="part_042"/>
+<itemref idref="part_043"/>
+<itemref idref="part_044"/>
+<itemref idref="part_045"/>
+<itemref idref="part_046"/>
+<itemref idref="part_047"/>
+<itemref idref="part_048"/>
+<itemref idref="part_049"/>
+<itemref idref="part_050"/>
+<itemref idref="part_051"/>
+<itemref idref="part_052"/>
+<itemref idref="part_053"/>
+<itemref idref="part_054"/>
+<itemref idref="part_055"/>
+<itemref idref="part_056"/>
+<itemref idref="part_057"/>
+<itemref idref="part_058"/>
+<itemref idref="part_059"/>
+<itemref idref="part_060"/>
+<itemref idref="part_061"/>
+<itemref idref="part_062"/>
+<itemref idref="part_063"/>
+<itemref idref="part_064"/>
+<itemref idref="part_065"/>
+<itemref idref="part_066"/>
+<itemref idref="part_067"/>
+<itemref idref="part_068"/>
+<itemref idref="part_069"/>
+<itemref idref="part_070"/>
+<itemref idref="part_071"/>
+<itemref idref="part_072"/>
+<itemref idref="part_073"/>
+<itemref idref="part_074"/>
+<itemref idref="part_075"/>
+<itemref idref="part_076"/>
+<itemref idref="part_077"/>
+<itemref idref="part_078"/>
+<itemref idref="part_079"/>
+<itemref idref="part_080"/>
+<itemref idref="part_081"/>
+<itemref idref="part_082"/>
+<itemref idref="part_083"/>
+<itemref idref="part_084"/>
+<itemref idref="part_085"/>
+<itemref idref="part_086"/>
+<itemref idref="part_087"/>
+<itemref idref="part_088"/>
+<itemref idref="part_089"/>
+<itemref idref="part_090"/>
+<itemref idref="part_091"/>
+<itemref idref="part_092"/>
+<itemref idref="part_093"/>
+<itemref idref="part_094"/>
+<itemref idref="part_095"/>
+<itemref idref="part_096"/>
+<itemref idref="part_097"/>
+<itemref idref="part_098"/>
+<itemref idref="part_099"/>
+<itemref idref="part_100"/>
+<itemref idref="part_101"/>
+<itemref idref="part_102"/>
+<itemref idref="part_103"/>
+<itemref idref="part_104"/>
+<itemref idref="part_105"/>
+<itemref idref="part_106"/>
+<itemref idref="part_107"/>
+<itemref idref="part_108"/>
+<itemref idref="part_109"/>
+<itemref idref="part_110"/>
+<itemref idref="part_111"/>
+<itemref idref="part_112"/>
+<itemref idref="part_113"/>
+<itemref idref="part_114"/>
+<itemref idref="part_115"/>
+<itemref idref="part_116"/>
+<itemref idref="part_117"/>
+<itemref idref="part_118"/>
+<itemref idref="part_119"/>
+<itemref idref="part_120"/>
+<itemref idref="part_121"/>
+<itemref idref="part_122"/>
+<itemref idref="part_123"/>
+<itemref idref="part_124"/>
+<itemref idref="part_125"/>
+<itemref idref="part_126"/>
+<itemref idref="part_127"/>
+<itemref idref="part_128"/>
+<itemref idref="part_129"/>
+<itemref idref="part_130"/>
+<itemref idref="part_131"/>
+<itemref idref="part_132"/>
+<itemref idref="part_133"/>
+<itemref idref="part_134"/>
+<itemref idref="part_135"/>
+<itemref idref="part_136"/>
+<itemref idref="part_137"/>
+<itemref idref="part_138"/>
+<itemref idref="part_139"/>
+<itemref idref="part_140"/>
+<itemref idref="part_141"/>
+<itemref idref="part_142"/>
+<itemref idref="part_143"/>
+<itemref idref="part_144"/>
+<itemref idref="part_145"/>
+<itemref idref="part_146"/>
+<itemref idref="part_147"/>
+<itemref idref="part_148"/>
+<itemref idref="part_149"/>
+<itemref idref="part_150"/>
+<itemref idref="part_151"/>
+<itemref idref="part_152"/>
+<itemref idref="part_153"/>
+<itemref idref="part_154"/>
+<itemref idref="part_155"/>
+<itemref idref="part_156"/>
+<itemref idref="part_157"/>
+<itemref idref="part_158"/>
+<itemref idref="part_159"/>
+<itemref idref="part_160"/>
+<itemref idref="part_161"/>
+<itemref idref="part_162"/>
+<itemref idref="part_163"/>
+<itemref idref="part_164"/>
+<itemref idref="part_165"/>
+<itemref idref="part_166"/>
+<itemref idref="part_167"/>
+<itemref idref="part_168"/>
+<itemref idref="part_169"/>
+<itemref idref="part_170"/>
+<itemref idref="part_171"/>
+<itemref idref="part_172"/>
+<itemref idref="part_173"/>
+<itemref idref="part_174"/>
+<itemref idref="part_175"/>
+<itemref idref="part_176"/>
+<itemref idref="part_177"/>
+<itemref idref="part_178"/>
+<itemref idref="part_179"/>
+<itemref idref="part_180"/>
+<itemref idref="part_181"/>
+<itemref idref="part_182"/>
+<itemref idref="part_183"/>
+<itemref idref="part_184"/>
+<itemref idref="part_185"/>
+<itemref idref="part_186"/>
+<itemref idref="part_187"/>
+<itemref idref="part_188"/>
+<itemref idref="part_189"/>
+<itemref idref="part_190"/>
+<itemref idref="part_191"/>
+<itemref idref="part_192"/>
+<itemref idref="part_193"/>
+<itemref idref="part_194"/>
+<itemref idref="part_195"/>
+<itemref idref="part_196"/>
+<itemref idref="part_197"/>
+<itemref idref="part_198"/>
+<itemref idref="part_199"/>
+<itemref idref="part_200"/>
+<itemref idref="part_201"/>
+<itemref idref="part_202"/>
+<itemref idref="part_203"/>
+<itemref idref="part_204"/>
+<itemref idref="part_205"/>
+<itemref idref="part_206"/>
+<itemref idref="part_207"/>
+<itemref idref="part_208"/>
+<itemref idref="part_209"/>
+<itemref idref="part_210"/>
+<itemref idref="part_211"/>
+<itemref idref="part_212"/>
+<itemref idref="part_213"/>
+<itemref idref="part_214"/>
+<itemref idref="part_215"/>
+<itemref idref="part_216"/>
+<itemref idref="part_217"/>
+<itemref idref="part_218"/>
+<itemref idref="part_219"/>
+<itemref idref="part_220"/>
+<itemref idref="part_221"/>
+<itemref idref="part_222"/>
+<itemref idref="part_223"/>
+<itemref idref="part_224"/>
+<itemref idref="part_225"/>
+<itemref idref="part_226"/>
+<itemref idref="part_227"/>
+<itemref idref="part_228"/>
+<itemref idref="part_229"/>
+<itemref idref="part_230"/>
+<itemref idref="part_231"/>
+<itemref idref="part_232"/>
+<itemref idref="part_233"/>
+<itemref idref="part_234"/>
+<itemref idref="part_235"/>
+<itemref idref="part_236"/>
+<itemref idref="part_237"/>
+<itemref idref="part_238"/>
+<itemref idref="part_239"/>
+<itemref idref="part_240"/>
+<itemref idref="part_241"/>
+<itemref idref="part_242"/>
+<itemref idref="part_243"/>
+<itemref idref="part_244"/>
+<itemref idref="part_245"/>
+<itemref idref="part_246"/>
+<itemref idref="part_247"/>
+<itemref idref="part_248"/>
+<itemref idref="part_249"/>
+<itemref idref="part_250"/>
+<itemref idref="part_251"/>
+<itemref idref="part_252"/>
+<itemref idref="part_253"/>
+<itemref idref="part_254"/>
+<itemref idref="part_255"/>
+<itemref idref="part_256"/>
+<itemref idref="part_257"/>
+<itemref idref="part_258"/>
+<itemref idref="part_259"/>
+<itemref idref="part_260"/>
+<itemref idref="part_261"/>
+<itemref idref="part_262"/>
+<itemref idref="part_263"/>
+<itemref idref="part_264"/>
+<itemref idref="part_265"/>
+<itemref idref="part_266"/>
+<itemref idref="part_267"/>
+<itemref idref="part_268"/>
+<itemref idref="part_269"/>
+<itemref idref="part_270"/>
+<itemref idref="part_271"/>
+<itemref idref="part_272"/>
+<itemref idref="part_273"/>
+<itemref idref="part_274"/>
+<itemref idref="part_275"/>
+<itemref idref="part_276"/>
+<itemref idref="part_277"/>
+<itemref idref="part_278"/>
+<itemref idref="part_279"/>
+<itemref idref="part_280"/>
+<itemref idref="part_281"/>
+<itemref idref="part_282"/>
+<itemref idref="part_283"/>
+<itemref idref="part_284"/>
+<itemref idref="part_285"/>
+<itemref idref="part_286"/>
+<itemref idref="part_287"/>
+<itemref idref="part_288"/>
+<itemref idref="part_289"/>
+<itemref idref="part_290"/>
+<itemref idref="part_291"/>
+<itemref idref="part_292"/>
+<itemref idref="part_293"/>
+<itemref idref="part_294"/>
+<itemref idref="part_295"/>
+<itemref idref="part_296"/>
+<itemref idref="part_297"/>
+<itemref idref="part_298"/>
+<itemref idref="part_299"/>
+<itemref idref="part_300"/>
+
+
+  </spine>
+  <guide>
+    <reference type="index" title="Part 1" href="parts_diccionari/part_001.html"/>
+    <reference type="index" title="Part 2" href="parts_diccionari/part_002.html"/>
+    <reference type="index" title="Part 3" href="parts_diccionari/part_003.html"/>
+<reference type="index" title="Part 4" href="parts_diccionari/part_004.html"/>
+<reference type="index" title="Part 5" href="parts_diccionari/part_005.html"/>
+<reference type="index" title="Part 6" href="parts_diccionari/part_006.html"/>
+<reference type="index" title="Part 7" href="parts_diccionari/part_007.html"/>
+<reference type="index" title="Part 8" href="parts_diccionari/part_008.html"/>
+<reference type="index" title="Part 9" href="parts_diccionari/part_009.html"/>
+<reference type="index" title="Part 10" href="parts_diccionari/part_010.html"/>
+<reference type="index" title="Part 11" href="parts_diccionari/part_011.html"/>
+<reference type="index" title="Part 12" href="parts_diccionari/part_012.html"/>
+<reference type="index" title="Part 13" href="parts_diccionari/part_013.html"/>
+<reference type="index" title="Part 14" href="parts_diccionari/part_014.html"/>
+<reference type="index" title="Part 15" href="parts_diccionari/part_015.html"/>
+<reference type="index" title="Part 16" href="parts_diccionari/part_016.html"/>
+<reference type="index" title="Part 17" href="parts_diccionari/part_017.html"/>
+<reference type="index" title="Part 18" href="parts_diccionari/part_018.html"/>
+<reference type="index" title="Part 19" href="parts_diccionari/part_019.html"/>
+<reference type="index" title="Part 20" href="parts_diccionari/part_020.html"/>
+<reference type="index" title="Part 21" href="parts_diccionari/part_021.html"/>
+<reference type="index" title="Part 22" href="parts_diccionari/part_022.html"/>
+<reference type="index" title="Part 23" href="parts_diccionari/part_023.html"/>
+<reference type="index" title="Part 24" href="parts_diccionari/part_024.html"/>
+<reference type="index" title="Part 25" href="parts_diccionari/part_025.html"/>
+<reference type="index" title="Part 26" href="parts_diccionari/part_026.html"/>
+<reference type="index" title="Part 27" href="parts_diccionari/part_027.html"/>
+<reference type="index" title="Part 28" href="parts_diccionari/part_028.html"/>
+<reference type="index" title="Part 29" href="parts_diccionari/part_029.html"/>
+<reference type="index" title="Part 30" href="parts_diccionari/part_030.html"/>
+<reference type="index" title="Part 31" href="parts_diccionari/part_031.html"/>
+<reference type="index" title="Part 32" href="parts_diccionari/part_032.html"/>
+<reference type="index" title="Part 33" href="parts_diccionari/part_033.html"/>
+<reference type="index" title="Part 34" href="parts_diccionari/part_034.html"/>
+<reference type="index" title="Part 35" href="parts_diccionari/part_035.html"/>
+<reference type="index" title="Part 36" href="parts_diccionari/part_036.html"/>
+<reference type="index" title="Part 37" href="parts_diccionari/part_037.html"/>
+<reference type="index" title="Part 38" href="parts_diccionari/part_038.html"/>
+<reference type="index" title="Part 39" href="parts_diccionari/part_039.html"/>
+<reference type="index" title="Part 40" href="parts_diccionari/part_040.html"/>
+<reference type="index" title="Part 41" href="parts_diccionari/part_041.html"/>
+<reference type="index" title="Part 42" href="parts_diccionari/part_042.html"/>
+<reference type="index" title="Part 43" href="parts_diccionari/part_043.html"/>
+<reference type="index" title="Part 44" href="parts_diccionari/part_044.html"/>
+<reference type="index" title="Part 45" href="parts_diccionari/part_045.html"/>
+<reference type="index" title="Part 46" href="parts_diccionari/part_046.html"/>
+<reference type="index" title="Part 47" href="parts_diccionari/part_047.html"/>
+<reference type="index" title="Part 48" href="parts_diccionari/part_048.html"/>
+<reference type="index" title="Part 49" href="parts_diccionari/part_049.html"/>
+<reference type="index" title="Part 50" href="parts_diccionari/part_050.html"/>
+<reference type="index" title="Part 51" href="parts_diccionari/part_051.html"/>
+<reference type="index" title="Part 52" href="parts_diccionari/part_052.html"/>
+<reference type="index" title="Part 53" href="parts_diccionari/part_053.html"/>
+<reference type="index" title="Part 54" href="parts_diccionari/part_054.html"/>
+<reference type="index" title="Part 55" href="parts_diccionari/part_055.html"/>
+<reference type="index" title="Part 56" href="parts_diccionari/part_056.html"/>
+<reference type="index" title="Part 57" href="parts_diccionari/part_057.html"/>
+<reference type="index" title="Part 58" href="parts_diccionari/part_058.html"/>
+<reference type="index" title="Part 59" href="parts_diccionari/part_059.html"/>
+<reference type="index" title="Part 60" href="parts_diccionari/part_060.html"/>
+<reference type="index" title="Part 61" href="parts_diccionari/part_061.html"/>
+<reference type="index" title="Part 62" href="parts_diccionari/part_062.html"/>
+<reference type="index" title="Part 63" href="parts_diccionari/part_063.html"/>
+<reference type="index" title="Part 64" href="parts_diccionari/part_064.html"/>
+<reference type="index" title="Part 65" href="parts_diccionari/part_065.html"/>
+<reference type="index" title="Part 66" href="parts_diccionari/part_066.html"/>
+<reference type="index" title="Part 67" href="parts_diccionari/part_067.html"/>
+<reference type="index" title="Part 68" href="parts_diccionari/part_068.html"/>
+<reference type="index" title="Part 69" href="parts_diccionari/part_069.html"/>
+<reference type="index" title="Part 70" href="parts_diccionari/part_070.html"/>
+<reference type="index" title="Part 71" href="parts_diccionari/part_071.html"/>
+<reference type="index" title="Part 72" href="parts_diccionari/part_072.html"/>
+<reference type="index" title="Part 73" href="parts_diccionari/part_073.html"/>
+<reference type="index" title="Part 74" href="parts_diccionari/part_074.html"/>
+<reference type="index" title="Part 75" href="parts_diccionari/part_075.html"/>
+<reference type="index" title="Part 76" href="parts_diccionari/part_076.html"/>
+<reference type="index" title="Part 77" href="parts_diccionari/part_077.html"/>
+<reference type="index" title="Part 78" href="parts_diccionari/part_078.html"/>
+<reference type="index" title="Part 79" href="parts_diccionari/part_079.html"/>
+<reference type="index" title="Part 80" href="parts_diccionari/part_080.html"/>
+<reference type="index" title="Part 81" href="parts_diccionari/part_081.html"/>
+<reference type="index" title="Part 82" href="parts_diccionari/part_082.html"/>
+<reference type="index" title="Part 83" href="parts_diccionari/part_083.html"/>
+<reference type="index" title="Part 84" href="parts_diccionari/part_084.html"/>
+<reference type="index" title="Part 85" href="parts_diccionari/part_085.html"/>
+<reference type="index" title="Part 86" href="parts_diccionari/part_086.html"/>
+<reference type="index" title="Part 87" href="parts_diccionari/part_087.html"/>
+<reference type="index" title="Part 88" href="parts_diccionari/part_088.html"/>
+<reference type="index" title="Part 89" href="parts_diccionari/part_089.html"/>
+<reference type="index" title="Part 90" href="parts_diccionari/part_090.html"/>
+<reference type="index" title="Part 91" href="parts_diccionari/part_091.html"/>
+<reference type="index" title="Part 92" href="parts_diccionari/part_092.html"/>
+<reference type="index" title="Part 93" href="parts_diccionari/part_093.html"/>
+<reference type="index" title="Part 94" href="parts_diccionari/part_094.html"/>
+<reference type="index" title="Part 95" href="parts_diccionari/part_095.html"/>
+<reference type="index" title="Part 96" href="parts_diccionari/part_096.html"/>
+<reference type="index" title="Part 97" href="parts_diccionari/part_097.html"/>
+<reference type="index" title="Part 98" href="parts_diccionari/part_098.html"/>
+<reference type="index" title="Part 99" href="parts_diccionari/part_099.html"/>
+<reference type="index" title="Part 100" href="parts_diccionari/part_100.html"/>
+<reference type="index" title="Part 101" href="parts_diccionari/part_101.html"/>
+<reference type="index" title="Part 102" href="parts_diccionari/part_102.html"/>
+<reference type="index" title="Part 103" href="parts_diccionari/part_103.html"/>
+<reference type="index" title="Part 104" href="parts_diccionari/part_104.html"/>
+<reference type="index" title="Part 105" href="parts_diccionari/part_105.html"/>
+<reference type="index" title="Part 106" href="parts_diccionari/part_106.html"/>
+<reference type="index" title="Part 107" href="parts_diccionari/part_107.html"/>
+<reference type="index" title="Part 108" href="parts_diccionari/part_108.html"/>
+<reference type="index" title="Part 109" href="parts_diccionari/part_109.html"/>
+<reference type="index" title="Part 110" href="parts_diccionari/part_110.html"/>
+<reference type="index" title="Part 111" href="parts_diccionari/part_111.html"/>
+<reference type="index" title="Part 112" href="parts_diccionari/part_112.html"/>
+<reference type="index" title="Part 113" href="parts_diccionari/part_113.html"/>
+<reference type="index" title="Part 114" href="parts_diccionari/part_114.html"/>
+<reference type="index" title="Part 115" href="parts_diccionari/part_115.html"/>
+<reference type="index" title="Part 116" href="parts_diccionari/part_116.html"/>
+<reference type="index" title="Part 117" href="parts_diccionari/part_117.html"/>
+<reference type="index" title="Part 118" href="parts_diccionari/part_118.html"/>
+<reference type="index" title="Part 119" href="parts_diccionari/part_119.html"/>
+<reference type="index" title="Part 120" href="parts_diccionari/part_120.html"/>
+<reference type="index" title="Part 121" href="parts_diccionari/part_121.html"/>
+<reference type="index" title="Part 122" href="parts_diccionari/part_122.html"/>
+<reference type="index" title="Part 123" href="parts_diccionari/part_123.html"/>
+<reference type="index" title="Part 124" href="parts_diccionari/part_124.html"/>
+<reference type="index" title="Part 125" href="parts_diccionari/part_125.html"/>
+<reference type="index" title="Part 126" href="parts_diccionari/part_126.html"/>
+<reference type="index" title="Part 127" href="parts_diccionari/part_127.html"/>
+<reference type="index" title="Part 128" href="parts_diccionari/part_128.html"/>
+<reference type="index" title="Part 129" href="parts_diccionari/part_129.html"/>
+<reference type="index" title="Part 130" href="parts_diccionari/part_130.html"/>
+<reference type="index" title="Part 131" href="parts_diccionari/part_131.html"/>
+<reference type="index" title="Part 132" href="parts_diccionari/part_132.html"/>
+<reference type="index" title="Part 133" href="parts_diccionari/part_133.html"/>
+<reference type="index" title="Part 134" href="parts_diccionari/part_134.html"/>
+<reference type="index" title="Part 135" href="parts_diccionari/part_135.html"/>
+<reference type="index" title="Part 136" href="parts_diccionari/part_136.html"/>
+<reference type="index" title="Part 137" href="parts_diccionari/part_137.html"/>
+<reference type="index" title="Part 138" href="parts_diccionari/part_138.html"/>
+<reference type="index" title="Part 139" href="parts_diccionari/part_139.html"/>
+<reference type="index" title="Part 140" href="parts_diccionari/part_140.html"/>
+<reference type="index" title="Part 141" href="parts_diccionari/part_141.html"/>
+<reference type="index" title="Part 142" href="parts_diccionari/part_142.html"/>
+<reference type="index" title="Part 143" href="parts_diccionari/part_143.html"/>
+<reference type="index" title="Part 144" href="parts_diccionari/part_144.html"/>
+<reference type="index" title="Part 145" href="parts_diccionari/part_145.html"/>
+<reference type="index" title="Part 146" href="parts_diccionari/part_146.html"/>
+<reference type="index" title="Part 147" href="parts_diccionari/part_147.html"/>
+<reference type="index" title="Part 148" href="parts_diccionari/part_148.html"/>
+<reference type="index" title="Part 149" href="parts_diccionari/part_149.html"/>
+<reference type="index" title="Part 150" href="parts_diccionari/part_150.html"/>
+<reference type="index" title="Part 151" href="parts_diccionari/part_151.html"/>
+<reference type="index" title="Part 152" href="parts_diccionari/part_152.html"/>
+<reference type="index" title="Part 153" href="parts_diccionari/part_153.html"/>
+<reference type="index" title="Part 154" href="parts_diccionari/part_154.html"/>
+<reference type="index" title="Part 155" href="parts_diccionari/part_155.html"/>
+<reference type="index" title="Part 156" href="parts_diccionari/part_156.html"/>
+<reference type="index" title="Part 157" href="parts_diccionari/part_157.html"/>
+<reference type="index" title="Part 158" href="parts_diccionari/part_158.html"/>
+<reference type="index" title="Part 159" href="parts_diccionari/part_159.html"/>
+<reference type="index" title="Part 160" href="parts_diccionari/part_160.html"/>
+<reference type="index" title="Part 161" href="parts_diccionari/part_161.html"/>
+<reference type="index" title="Part 162" href="parts_diccionari/part_162.html"/>
+<reference type="index" title="Part 163" href="parts_diccionari/part_163.html"/>
+<reference type="index" title="Part 164" href="parts_diccionari/part_164.html"/>
+<reference type="index" title="Part 165" href="parts_diccionari/part_165.html"/>
+<reference type="index" title="Part 166" href="parts_diccionari/part_166.html"/>
+<reference type="index" title="Part 167" href="parts_diccionari/part_167.html"/>
+<reference type="index" title="Part 168" href="parts_diccionari/part_168.html"/>
+<reference type="index" title="Part 169" href="parts_diccionari/part_169.html"/>
+<reference type="index" title="Part 170" href="parts_diccionari/part_170.html"/>
+<reference type="index" title="Part 171" href="parts_diccionari/part_171.html"/>
+<reference type="index" title="Part 172" href="parts_diccionari/part_172.html"/>
+<reference type="index" title="Part 173" href="parts_diccionari/part_173.html"/>
+<reference type="index" title="Part 174" href="parts_diccionari/part_174.html"/>
+<reference type="index" title="Part 175" href="parts_diccionari/part_175.html"/>
+<reference type="index" title="Part 176" href="parts_diccionari/part_176.html"/>
+<reference type="index" title="Part 177" href="parts_diccionari/part_177.html"/>
+<reference type="index" title="Part 178" href="parts_diccionari/part_178.html"/>
+<reference type="index" title="Part 179" href="parts_diccionari/part_179.html"/>
+<reference type="index" title="Part 180" href="parts_diccionari/part_180.html"/>
+<reference type="index" title="Part 181" href="parts_diccionari/part_181.html"/>
+<reference type="index" title="Part 182" href="parts_diccionari/part_182.html"/>
+<reference type="index" title="Part 183" href="parts_diccionari/part_183.html"/>
+<reference type="index" title="Part 184" href="parts_diccionari/part_184.html"/>
+<reference type="index" title="Part 185" href="parts_diccionari/part_185.html"/>
+<reference type="index" title="Part 186" href="parts_diccionari/part_186.html"/>
+<reference type="index" title="Part 187" href="parts_diccionari/part_187.html"/>
+<reference type="index" title="Part 188" href="parts_diccionari/part_188.html"/>
+<reference type="index" title="Part 189" href="parts_diccionari/part_189.html"/>
+<reference type="index" title="Part 190" href="parts_diccionari/part_190.html"/>
+<reference type="index" title="Part 191" href="parts_diccionari/part_191.html"/>
+<reference type="index" title="Part 192" href="parts_diccionari/part_192.html"/>
+<reference type="index" title="Part 193" href="parts_diccionari/part_193.html"/>
+<reference type="index" title="Part 194" href="parts_diccionari/part_194.html"/>
+<reference type="index" title="Part 195" href="parts_diccionari/part_195.html"/>
+<reference type="index" title="Part 196" href="parts_diccionari/part_196.html"/>
+<reference type="index" title="Part 197" href="parts_diccionari/part_197.html"/>
+<reference type="index" title="Part 198" href="parts_diccionari/part_198.html"/>
+<reference type="index" title="Part 199" href="parts_diccionari/part_199.html"/>
+<reference type="index" title="Part 200" href="parts_diccionari/part_200.html"/>
+<reference type="index" title="Part 201" href="parts_diccionari/part_201.html"/>
+<reference type="index" title="Part 202" href="parts_diccionari/part_202.html"/>
+<reference type="index" title="Part 203" href="parts_diccionari/part_203.html"/>
+<reference type="index" title="Part 204" href="parts_diccionari/part_204.html"/>
+<reference type="index" title="Part 205" href="parts_diccionari/part_205.html"/>
+<reference type="index" title="Part 206" href="parts_diccionari/part_206.html"/>
+<reference type="index" title="Part 207" href="parts_diccionari/part_207.html"/>
+<reference type="index" title="Part 208" href="parts_diccionari/part_208.html"/>
+<reference type="index" title="Part 209" href="parts_diccionari/part_209.html"/>
+<reference type="index" title="Part 210" href="parts_diccionari/part_210.html"/>
+<reference type="index" title="Part 211" href="parts_diccionari/part_211.html"/>
+<reference type="index" title="Part 212" href="parts_diccionari/part_212.html"/>
+<reference type="index" title="Part 213" href="parts_diccionari/part_213.html"/>
+<reference type="index" title="Part 214" href="parts_diccionari/part_214.html"/>
+<reference type="index" title="Part 215" href="parts_diccionari/part_215.html"/>
+<reference type="index" title="Part 216" href="parts_diccionari/part_216.html"/>
+<reference type="index" title="Part 217" href="parts_diccionari/part_217.html"/>
+<reference type="index" title="Part 218" href="parts_diccionari/part_218.html"/>
+<reference type="index" title="Part 219" href="parts_diccionari/part_219.html"/>
+<reference type="index" title="Part 220" href="parts_diccionari/part_220.html"/>
+<reference type="index" title="Part 221" href="parts_diccionari/part_221.html"/>
+<reference type="index" title="Part 222" href="parts_diccionari/part_222.html"/>
+<reference type="index" title="Part 223" href="parts_diccionari/part_223.html"/>
+<reference type="index" title="Part 224" href="parts_diccionari/part_224.html"/>
+<reference type="index" title="Part 225" href="parts_diccionari/part_225.html"/>
+<reference type="index" title="Part 226" href="parts_diccionari/part_226.html"/>
+<reference type="index" title="Part 227" href="parts_diccionari/part_227.html"/>
+<reference type="index" title="Part 228" href="parts_diccionari/part_228.html"/>
+<reference type="index" title="Part 229" href="parts_diccionari/part_229.html"/>
+<reference type="index" title="Part 230" href="parts_diccionari/part_230.html"/>
+<reference type="index" title="Part 231" href="parts_diccionari/part_231.html"/>
+<reference type="index" title="Part 232" href="parts_diccionari/part_232.html"/>
+<reference type="index" title="Part 233" href="parts_diccionari/part_233.html"/>
+<reference type="index" title="Part 234" href="parts_diccionari/part_234.html"/>
+<reference type="index" title="Part 235" href="parts_diccionari/part_235.html"/>
+<reference type="index" title="Part 236" href="parts_diccionari/part_236.html"/>
+<reference type="index" title="Part 237" href="parts_diccionari/part_237.html"/>
+<reference type="index" title="Part 238" href="parts_diccionari/part_238.html"/>
+<reference type="index" title="Part 239" href="parts_diccionari/part_239.html"/>
+<reference type="index" title="Part 240" href="parts_diccionari/part_240.html"/>
+<reference type="index" title="Part 241" href="parts_diccionari/part_241.html"/>
+<reference type="index" title="Part 242" href="parts_diccionari/part_242.html"/>
+<reference type="index" title="Part 243" href="parts_diccionari/part_243.html"/>
+<reference type="index" title="Part 244" href="parts_diccionari/part_244.html"/>
+<reference type="index" title="Part 245" href="parts_diccionari/part_245.html"/>
+<reference type="index" title="Part 246" href="parts_diccionari/part_246.html"/>
+<reference type="index" title="Part 247" href="parts_diccionari/part_247.html"/>
+<reference type="index" title="Part 248" href="parts_diccionari/part_248.html"/>
+<reference type="index" title="Part 249" href="parts_diccionari/part_249.html"/>
+<reference type="index" title="Part 250" href="parts_diccionari/part_250.html"/>
+<reference type="index" title="Part 251" href="parts_diccionari/part_251.html"/>
+<reference type="index" title="Part 252" href="parts_diccionari/part_252.html"/>
+<reference type="index" title="Part 253" href="parts_diccionari/part_253.html"/>
+<reference type="index" title="Part 254" href="parts_diccionari/part_254.html"/>
+<reference type="index" title="Part 255" href="parts_diccionari/part_255.html"/>
+<reference type="index" title="Part 256" href="parts_diccionari/part_256.html"/>
+<reference type="index" title="Part 257" href="parts_diccionari/part_257.html"/>
+<reference type="index" title="Part 258" href="parts_diccionari/part_258.html"/>
+<reference type="index" title="Part 259" href="parts_diccionari/part_259.html"/>
+<reference type="index" title="Part 260" href="parts_diccionari/part_260.html"/>
+<reference type="index" title="Part 261" href="parts_diccionari/part_261.html"/>
+<reference type="index" title="Part 262" href="parts_diccionari/part_262.html"/>
+<reference type="index" title="Part 263" href="parts_diccionari/part_263.html"/>
+<reference type="index" title="Part 264" href="parts_diccionari/part_264.html"/>
+<reference type="index" title="Part 265" href="parts_diccionari/part_265.html"/>
+<reference type="index" title="Part 266" href="parts_diccionari/part_266.html"/>
+<reference type="index" title="Part 267" href="parts_diccionari/part_267.html"/>
+<reference type="index" title="Part 268" href="parts_diccionari/part_268.html"/>
+<reference type="index" title="Part 269" href="parts_diccionari/part_269.html"/>
+<reference type="index" title="Part 270" href="parts_diccionari/part_270.html"/>
+<reference type="index" title="Part 271" href="parts_diccionari/part_271.html"/>
+<reference type="index" title="Part 272" href="parts_diccionari/part_272.html"/>
+<reference type="index" title="Part 273" href="parts_diccionari/part_273.html"/>
+<reference type="index" title="Part 274" href="parts_diccionari/part_274.html"/>
+<reference type="index" title="Part 275" href="parts_diccionari/part_275.html"/>
+<reference type="index" title="Part 276" href="parts_diccionari/part_276.html"/>
+<reference type="index" title="Part 277" href="parts_diccionari/part_277.html"/>
+<reference type="index" title="Part 278" href="parts_diccionari/part_278.html"/>
+<reference type="index" title="Part 279" href="parts_diccionari/part_279.html"/>
+<reference type="index" title="Part 280" href="parts_diccionari/part_280.html"/>
+<reference type="index" title="Part 281" href="parts_diccionari/part_281.html"/>
+<reference type="index" title="Part 282" href="parts_diccionari/part_282.html"/>
+<reference type="index" title="Part 283" href="parts_diccionari/part_283.html"/>
+<reference type="index" title="Part 284" href="parts_diccionari/part_284.html"/>
+<reference type="index" title="Part 285" href="parts_diccionari/part_285.html"/>
+<reference type="index" title="Part 286" href="parts_diccionari/part_286.html"/>
+<reference type="index" title="Part 287" href="parts_diccionari/part_287.html"/>
+<reference type="index" title="Part 288" href="parts_diccionari/part_288.html"/>
+<reference type="index" title="Part 289" href="parts_diccionari/part_289.html"/>
+<reference type="index" title="Part 290" href="parts_diccionari/part_290.html"/>
+<reference type="index" title="Part 291" href="parts_diccionari/part_291.html"/>
+<reference type="index" title="Part 292" href="parts_diccionari/part_292.html"/>
+<reference type="index" title="Part 293" href="parts_diccionari/part_293.html"/>
+<reference type="index" title="Part 294" href="parts_diccionari/part_294.html"/>
+<reference type="index" title="Part 295" href="parts_diccionari/part_295.html"/>
+<reference type="index" title="Part 296" href="parts_diccionari/part_296.html"/>
+<reference type="index" title="Part 297" href="parts_diccionari/part_297.html"/>
+<reference type="index" title="Part 298" href="parts_diccionari/part_298.html"/>
+<reference type="index" title="Part 299" href="parts_diccionari/part_299.html"/>
+<reference type="index" title="Part 300" href="parts_diccionari/part_300.html"/>
+</guide>
+</package>
