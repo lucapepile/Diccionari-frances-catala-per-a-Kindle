@@ -4,37 +4,62 @@ import shutil
 import unicodedata
 
 def netejar_divs_repetits(text):
-    """Elimina els divs repetits o desbalancejats amb una estratègia més agressiva"""
-    # Primer, eliminem els tancaments de div sobrants
-    text = re.sub(r'</div>\s*(?=(</div>|<br/>|</idx:entry>))', '', text)
+    """Elimina els divs repetits, salts de línia innecessaris i la marca de copyright"""
+    # Eliminem el copyright i tots els <br/> que el precedeixen
+    text = re.sub(r'(<br/>\s*)+© Carles Castellanos i Llorenç, Rafael Castellanos i Llorenç', '', text)
+    text = re.sub(r'© Carles Castellanos i Llorenç, Rafael Castellanos i Llorenç', '', text)
     
-    # Netegem els divs buits
+    # Netegem els <br/> sols que quedin al final (sense copyright després)
+    text = re.sub(r'(<br/>\s*)+$', '', text)  # Elimina seqüències de <br/> al final
+    
+    # Resta de la neteja original (divs, etc.)
+    text = re.sub(r'</div>\s*(?=(</div>|<br/>|</idx:entry>))', '', text)
     text = re.sub(r'<div[^>]*>\s*</div>', '', text)
     
-    # Trobem tots els divs oberts i els paregem amb els tancaments
+    # Balanceig de divs (part original)
     divs_oberts = [m.start() for m in re.finditer(r'<div\b[^>]*>', text)]
     divs_tancats = [m.start() for m in re.finditer(r'</div>', text)]
     
-    # Si hi ha més divs oberts que tancats, afegim els que falten al final del contingut
     if len(divs_oberts) > len(divs_tancats):
         text += '</div>' * (len(divs_oberts) - len(divs_tancats))
-    # Si hi ha més tancaments, eliminem els sobrants (començant pels últims)
     elif len(divs_tancats) > len(divs_oberts):
         for i in range(len(divs_tancats) - 1, len(divs_oberts) - 1, -1):
             text = text[:divs_tancats[i]] + text[divs_tancats[i]+6:]
-    
-    # Eliminem múltiples <h2></h2> consecutius
+
+    # Netegem espais i elements buits addicionals
     text = re.sub(r'<h2>\s*</h2>', '', text)
-    
-    # Eliminem múltiples <br/> abans del copyright
-    text = re.sub(r'<br/>\s*<br/>\s*(<br/>\s*)*© Carles Castellanos', '<br/>© Carles Castellanos', text)
-    # També cobrim el cas on els <br/> apareixen entre dos </div> i el copyright
-    text = re.sub(r'</div>\s*<br/>\s*(<br/>\s*)*© Carles Castellanos', '</div>\n© Carles Castellanos', text)
-    
-    # Netegem espais innecessaris
     text = re.sub(r'\n\s*\n', '\n', text)
     
     return text.strip()
+
+def afegir_ol_dict_si_cal(entrada):
+    """Afegeix l'estructura <ol class="dict"><li>...</li></ol> si no existeix"""
+    # Comprovem si ja té l'estructura
+    if '<ol class="dict">' in entrada:
+        return entrada
+    
+    # Busquem el contingut de la definició (entre <div class="div1"> i el copyright)
+    definicio_match = re.search(r'(<div class="div1">)(.*?)(<br/>© Carles Castellanos)', entrada, re.DOTALL)
+    if definicio_match:
+        before = definicio_match.group(1)
+        contingut = definicio_match.group(2).strip()
+        after = definicio_match.group(3)
+        
+        # Netegem espais i salts de línia excessius
+        contingut = re.sub(r'\s+', ' ', contingut).strip()
+        
+        # Si el contingut no està buit, l'encapsulem
+        if contingut:
+            # Comprovem si ja té etiquetes <li>
+            if not re.search(r'<li\b', contingut):
+                nou_contingut = f'{before}<ol class="dict"><li><span></span> {contingut}</li></ol>{after}'
+            else:
+                # Si ja té <li> però li falta l'<ol>
+                nou_contingut = f'{before}<ol class="dict">{contingut}</ol>{after}'
+            
+            entrada = entrada[:definicio_match.start()] + nou_contingut + entrada[definicio_match.end():]
+    
+    return entrada
 
 def processar_entrada(linia_titol, homograf=None):
     patrons = [
@@ -123,7 +148,7 @@ def dividir_diccionari_complet(arxiu_entrada, carpeta_sortida, num_parts=300):
         if re.search(r'<lbl type="homograph">(\d+)</lbl>', x[1]) else 0
     ))
     
-    entrades = [entrada for _, entrada in entrades_ordenades]  # Corregit aquí
+    entrades = [entrada for _, entrada in entrades_ordenades]
     num_entrades = len(entrades)
     if num_entrades == 0:
         print("No s'han trobat entrades al fitxer.")
@@ -151,6 +176,7 @@ def dividir_diccionari_complet(arxiu_entrada, carpeta_sortida, num_parts=300):
     # Títol del diccionari (només per la primera part)
     titol_diccionari = '<h1>Diccionari francès-català</h1>\n'
     tancament_html = '  </mbp:frameset>\n  </body>\n</html>'
+    
     for part in range(min(num_parts, num_entrades)):
         inici = part * mida_part
         fi = (part + 1) * mida_part if part < num_parts - 1 else num_entrades
@@ -163,6 +189,9 @@ def dividir_diccionari_complet(arxiu_entrada, carpeta_sortida, num_parts=300):
                 f_sortida.write(titol_diccionari)
             for i in range(inici, fi):
                 entrada = entrades[i].strip()
+                # Afegim l'estructura OL i LI si cal
+                entrada = afegir_ol_dict_si_cal(entrada)
+                
                 titol_match = re.search(r'<title type="display">(.*?)</title>', entrada)
                 if not titol_match:
                     titol_match = re.search(r'&lt;title type=&quot;display&quot;&gt;(.*?)&lt;/title&gt;', entrada)
@@ -189,9 +218,9 @@ def dividir_diccionari_complet(arxiu_entrada, carpeta_sortida, num_parts=300):
                     flags=re.DOTALL
                 )
                 contingut_text = netejar_divs_repetits(contingut_text.strip())
-                f_sortida.write('<hr>\n<idx:entry name="default" scriptable="yes" spell="yes">\n')
-                f_sortida.write(f'<h2><idx:orth>{paraula}</idx:orth>{f"<sup>{homograf}</sup>" if homograf else ""}</h2>\n')
-                f_sortida.write(contingut_text + '\n</idx:entry>\n')
+                f_sortida.write('<idx:entry name="default" scriptable="yes" spell="yes">\n')
+                f_sortida.write(f'<h2><idx:orth>{paraula}</idx:orth>{f"<sup>{homograf}</sup>" if homograf else ""}</h2>')
+                f_sortida.write(contingut_text + '</idx:entry>')
             f_sortida.write(tancament_html)
     print(f"Divisió completada! S'han creat {min(num_parts, num_entrades)} parts a la carpeta '{carpeta_sortida}'.")
 
